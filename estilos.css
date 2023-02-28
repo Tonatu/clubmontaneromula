@@ -1,0 +1,138 @@
+#body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header h1 {
+  margin-left: 20px;
+  float:left;
+  text-align: center;
+}
+#header ul{
+  list-style: none;
+  float: right;
+}
+#header li{
+  float: left;
+  padding: 10px;
+  margin-top: 5px;
+  font-weight: bold;
+}
+ a{
+  text-decoration: none;
+  color: black;
+}
+ a:hover{
+  color: #3399ff;
+}
+#headimg {
+  padding: 100px;
+  clear: both;
+  background: url("images/header.jpg") no-repeat;
+  background-size:cover;
+  background-position-y: -10px;
+}
+#headimg h1{
+  text-align: center;
+  color: white;
+}
+#headimg p{
+  color: white;
+  text-align: center;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+#headimg form{
+  text-align: center;
+}
+#headimg input{
+  font-weight: bold;
+  border: none;
+  color: white;
+  background-color: #3399ff;
+  text-align: center;
+  padding: 10px 25px;
+  border-radius: 7px;
+}
+#headimg input:hover{
+  background-color: black;
+  cursor:pointer;
+}
+#indexblog h1{
+  margin-left: 20px;
+  clear: both;
+
+}
+#footer form{
+  text-align: center;
+}
+#footer input{
+  font-weight: bold;
+  border: none;
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding: 10px 25px;
+  border-radius: 7px;
+
+}
+#footer input:hover{
+  background-color: #3399ff;
+  cursor:pointer;
+}
+#title{
+  clear: both;
+  text-align: center;
+}
+#entradas{
+  text-align: center;
+}
+#blogheadimg {
+  padding: 100px;
+  clear: both;
+  background: url("images/blogheader.jpg") no-repeat;
+  background-size:cover;
+  background-position-y: -500px;
+}
+#blogheadimg h1{
+  text-align: center;
+  color: white;
+}
+#blogheadimg p{
+  color: white;
+  text-align: center;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+#blogheadimg form{
+  text-align: center;
+}
+#blogheadimg input{
+  font-weight: bold;
+  border: none;
+  color: white;
+  background-color: #3399ff;
+  text-align: center;
+  padding: 10px 25px;
+  border-radius: 7px;
+}
+#blogheadimg input:hover{
+  background-color: black;
+  cursor:pointer;
+}
+#contact form input:focus{
+  background-color: #ccffff;
+}
+#contact form textarea:focus{
+  background-color: #ccffff;
+}
+#enviar{
+  border: none;
+  color: white;
+  background-color: #3399ff;
+  text-align: center;
+  padding: 10px 25px;
+  border-radius: 7px;
+}
+#enviar:hover{
+  background-color: black;
+  cursor:pointer;
+}
